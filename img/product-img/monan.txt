@@ -1,0 +1,25 @@
+.mon chinh
+bun cha 40000đ/phần
+pho bo 50000đ/tô
+bun rieu 30000đ/tô	
+bun bo 37000đ/tô
+goi cuon 7000d/cuốn
+banh cuon 28000đ/phần
+banh mi 16000đ/ổ
+com tam 32000đ/phần
+banh xeo 20000đ/phần
+mi quang 36000đ/tô
+.nuoc uong & trang mieng
+cafe da 22000đ/ly
+Cafe sua 25000đ/ly
+nuoc cam 30000đ/ly
+tra chanh 15000đ/ly
+nuoc viet quat 40000đ/ly
+cheesecake 55000đ/phần
+mochi 35000đ/phần
+chè thái 22000đ/ly
+bánh su kem 8000đ/cái
+pudding xoài 18000đ/phần
+
+	
+

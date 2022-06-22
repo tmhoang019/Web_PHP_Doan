@@ -1,0 +1,151 @@
+/*Don hang cua toi*/
+body
+html{
+	height: 100%;
+	font-family: 'New Tegomin', serif;
+	line-height: 1.8em;
+}
+.user-inf div{
+	display: inline-block;
+}
+#user-ordered{
+	color: black;
+	text-decoration: underline;
+}
+.of-nav{
+	background-color: white;
+	height: 120px;
+	width: 100%;
+}
+.navbar-toggler{
+	margin-right: 15px;
+	height: 52px;
+}
+.navbar-nav{
+	width: 97%;
+}
+.navbar-collapse{
+	background-color: white;
+}
+.nav-item{
+	font-style: italic;
+	padding: 10px;
+	font-size: 22px;
+	text-align: center;
+	color: black;
+}
+#background{
+	position: relative;
+	width: 100%;	
+  	height: 960px;
+  	background-color: white;
+  	font-family: 'New Tegomin', serif;
+}
+.navbar{
+	padding-top: 20px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	width: 100%;
+	height: 120px;
+	background-color: white;
+}
+.of-donhang{
+	width: 100%;
+	min-height: 80rem;
+}
+.inside-donhang{
+	margin-top: 50px;
+	background-color: #ffffff;
+	width: 90%;
+	height: 100%;
+	margin-left: 6%;
+}
+.update-btn{
+	width: 100%;
+	text-align: right;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-right: 25px; 
+	font-size: 19px;
+}
+table{
+	margin-top: 60px;
+	width: 100%;
+	font-size: 19px;
+	border-spacing: 0 15px;
+	table-layout: fixed;
+}
+th td{
+	margin: 0px 20px;
+}
+.donhang-note{
+	word-wrap: break-word;   
+	overflow-wrap: break-word;
+}
+.thongbaodonhang{
+	margin-top: 20px;
+	width: 100%;
+	font-size: 24px;
+	text-align: center;
+	color: #e6889a;
+}
+.border-bottom1{
+	width: 100%;
+	background-color: black;
+	height: 3px;
+}
+.of-contact{
+	margin-top: 120px;
+	background-color: #ffffff;
+}
+.inside-contact{
+	width: 90%;
+	height: 90%;
+	margin: 5%;
+	font-family: 'New Tegomin', serif;
+}
+.img-contact{
+	text-align: center;
+	margin-top: 50px;
+}
+div.inside-contact h3{
+	margin-top: 120px;
+}
+span{
+	color: #e6889a;
+}
+div.inside-contact p{
+	font-size: 18px;
+	color: #412638
+}
+.social{
+}
+#social-span{
+	font-size: 20px;
+}
+.social-items{
+	border-radius: 50%;
+	vertical-align: center;
+	height: 30px;
+	width: 30px;
+	margin-left: 5px;
+	background-color: #fcc4c4;
+	text-align: center;
+	display: inline-block;	
+}
+.social-items a{
+	height: 100%;
+}
+/*mobile*/
+@media only screen and (max-width: 739px){
+	.navbar-brand{
+		margin-left: 43% !important;
+	}
+	.search{
+		margin-top: 30px;
+		text-align: center;
+	}
+	#user{
+		display: none;
+	}
+}

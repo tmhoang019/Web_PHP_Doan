@@ -1,0 +1,183 @@
+body
+html{
+	height: 100%;
+	font-family: 'New Tegomin', serif;
+	line-height: 1.8em;
+}
+.container-fluid{
+	
+}
+.of-nav{
+	background-color: white;
+	height: 120px;
+	width: 100%;
+}
+#background{
+	width: 100%;	
+  	height: 960px;
+  	background-image: url('img/background_bundau.jpg');
+  	background-size: cover;
+  	background-position: center;
+  	background-attachment: fixed;
+}
+.wrap{
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+.navbar{
+	padding-top: 20px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	width: 100%;
+	height: 120px;
+	background-color: white;
+}
+.show{
+	width: 100%;
+}
+.dropdown-menu{
+
+}
+.navbar-toggler{
+	margin-right: 15px;
+	height: 52px;
+}
+.navbar-nav{
+	font-family: 'New Tegomin', serif;
+	width: 94%;
+}
+.navbar-collapse{
+	background-color: white;
+}
+
+.nav-item{
+	font-style: italic;
+	padding: 10px;
+	font-size: 22px;
+	text-align: center;
+	color: black;
+}
+.of-welcome{
+	background-color: #ffffff7a;
+	height: 40rem;
+	width: 100%;
+	opacity: 0.5;
+	position: relative;
+}
+.inside-welcome{
+	width: 42%;
+	height: 75%;
+	margin: 80px;
+	position: absolute;
+	background-color: #ffffffd1;
+	padding-top: 60px;
+	text-align: center;
+	color: black;
+	font-family: 'New Tegomin', serif;
+}
+h2{	
+	margin-top: 10px !important;
+	font-size: 3rem !important;	
+	line-height: 2.2 !important;
+	font-style: bold;
+}
+#welcome1{
+	margin-top: 0px;
+	font-size: 70px;
+	font-style: italic;
+}
+#welcome{
+	margin-top: 20px;
+	font-size: 22px;
+}
+.of-about{
+	background-color: #ffffff;
+	height: 46rem;
+}
+.inside-about{
+	background-image: url("img/food.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+  	background-position: center;
+	width: 86%;
+	height: 86%;
+	margin: 7%;
+	text-align: center;
+	font-family: 'New Tegomin', serif;
+
+}
+.about-paragraph{
+	float: right;
+	margin-right: 0px; 
+	background-color: pink;
+	width: 50%;
+	height: 100%;
+	justify-content: center;
+	color: white;
+}
+#about1{
+	font-size: 60px;
+	font-style: italic;
+}
+#about{
+	margin: 8%;
+	width: 84%;
+	font-size: 19px;
+}
+#about-a{
+	font-size: 19px;
+	color: #b485a7;
+	font-style: italic;
+	text-decoration: none;
+}
+#about-a:hover{
+	color: #e340b8;
+}
+.of-gallery{
+	margin-top: 10px;
+	background-color: #ffffff;
+	height: 46rem;
+	border: 1px solid black;
+}
+.of-contact{
+	margin-top: 10px;
+	background-color: #ffffff;
+	height: 46rem;
+	border: 1px solid black;
+}
+/*mobile*/
+@media only screen and (max-width: 46.1875rem){
+	.navbar-brand{
+		margin-left: 42% !important;
+	}
+	.of-welcome{
+		background-color: #ffffffc7;
+	}
+	.inside-welcome{
+		width: 75%;
+		background-color: #ffffff00;
+		padding-top: 177px;
+	}
+	.inside-about{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+	}
+	.about-paragraph{ 
+		background-color: pink;
+		width: 100%;
+		height: 52%;
+		justify-content: center;
+		color: white;
+	}
+	#about1{
+		font-size: 40px;
+		font-style: italic;
+	}
+	#about{
+		margin: 5%;
+		width: 90%;
+		font-size: 18px;
+	}
+}
